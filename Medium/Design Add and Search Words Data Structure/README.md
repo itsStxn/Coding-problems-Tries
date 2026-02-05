@@ -30,11 +30,11 @@ wordDictionary.search("b.."); // return True
 ```
 
 ### Constraints
-1 <= `word.length` <= 25  
-word in addWord consists of lowercase English letters.  
-word in search consist of '.' or lowercase English letters.  
-There will be at most 2 dots in word for search queries.  
-At most 10^4 calls will be made to addWord and search.
+- 1 <= `word.length` <= 25
+- `word` in `addWord` consists of lowercase English letters.
+- `word` in `search` consist of '.' or lowercase English letters.
+- There will be at most 2 dots in `word` for search queries.
+- At most 10^4 calls will be made to addWord and search.
 
 ## Strategy
 Implement a trie with a recursive `dfs` tweak when it comes to `Search` function. The tweak will recursively iterate for each child of a current trie if the current character of a word is '., otherwise it keeps on indexing to certain tries thanks to the ASCII of the character.
