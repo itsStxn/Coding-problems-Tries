@@ -3,13 +3,16 @@
 ## Difficulties
 
 ### Medium
+
 - Implement Trie Prefix Tree   	
 - Design Add And Search Words Data Structure
 
 ### Hard
+
 - Word Search II
 
 ## Patterns
+
 - Prefix-based **tree-like structure**
 - Works with **strings or characters**
 - Each node represents **a character**
